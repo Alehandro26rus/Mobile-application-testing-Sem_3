@@ -10,3 +10,7 @@ AccuWeather — https://developer.accuweather.com/.
 ------------------------------------------------------------
 ## Test-Run проекта
 ![Homework3.png](Homework3.png)
+
+------------------------------------------------------------
+## Test-run Postman
+![](Homework3_Postman_Run.png)
