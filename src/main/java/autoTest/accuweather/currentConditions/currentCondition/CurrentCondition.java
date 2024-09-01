@@ -1,6 +1,4 @@
-
 package autoTest.accuweather.currentConditions;
-
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -8,16 +6,16 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "LocalObservationDateTime",
-    "EpochTime",
-    "WeatherText",
-    "WeatherIcon",
-    "HasPrecipitation",
-    "PrecipitationType",
-    "IsDayTime",
-    "Temperature",
-    "MobileLink",
-    "Link"
+        "LocalObservationDateTime",
+        "EpochTime",
+        "WeatherText",
+        "WeatherIcon",
+        "HasPrecipitation",
+        "PrecipitationType",
+        "IsDayTime",
+        "Temperature",
+        "MobileLink",
+        "Link"
 })
 public class CurrentCondition {
 
